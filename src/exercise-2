@@ -1,0 +1,16 @@
+#!/usr/bin/node
+
+const programmingQuestion = "Você está estudando programação?"
+const outfitColorQuestion = "Você está usando roupa vermelha hoje?"
+const playedGameQuestion = "Você jogou um jogo hoje?"
+
+let ask = require('readline-sync')
+
+let responseProgramming  = ask.question(programmingQuestion + " ")
+let responseOutfitColor  = ask.question(outfitColorQuestion + " ")
+let responsePlayedGame   = ask.question(playedGameQuestion + " ")
+
+console.log(programmingQuestion, responseProgramming)
+console.log(outfitColorQuestion, responseOutfitColor)
+console.log(playedGameQuestion,  responsePlayedGame)
+

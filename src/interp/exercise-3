@@ -1,0 +1,5 @@
+#!/usr/bin/node
+
+let hoursPerWorkDay = prompt("Quantas horas você trabalha por dia?") // original name 'p'
+let moneyPerWorkDay = prompt("Quanto você recebe por dia?")          // original name 't'
+alert(`Você recebe ${hoursPerWorkDay / moneyPerWorkDay} por hora`)   // original 't/p'

@@ -1,0 +1,11 @@
+#!/usr/bin/node
+
+let a = 10
+let b = 20
+c = a // C receives 10
+
+b = c // B receives 10 
+a = b // A receives 10
+
+
+console.log(a, b, c) // Prints 10, 10 and 10 

@@ -1,0 +1,23 @@
+#!/usr/bin/node
+
+let ask = require('readline-sync')
+
+let x, y
+
+let firstInput, secondInput
+
+firstInput = parseInt(ask.question("Digite um número: "))
+secondInput = parseInt(ask.question("Digite outro número: "))
+
+if (isNaN(firstInput) || isNaN(secondInput))
+{
+	console.log("Você digitou um número inválido camarada.")
+	process.exit(1)
+}
+
+x = firstInput + secondInput
+y = firstInput * secondInput
+
+console.log(`O primeiro número somado ao segundo é: ${x}`)
+console.log(`O primeiro número multiplicado pelo segundo é: ${y}`)
+

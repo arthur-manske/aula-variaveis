@@ -1,0 +1,10 @@
+#!/usr/bin/node
+
+let a = 10
+let b = 10
+
+console.log(b) // Prints 10
+
+b = 5 
+console.log(a, b) // Prints 10 and 5
+
